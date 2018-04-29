@@ -14,7 +14,7 @@ end
 def long_planeteer_calls(calls)# code an argument here
   calls.each do |call|
     ('').size > 4
-  else 
+  else
     false
 end
 

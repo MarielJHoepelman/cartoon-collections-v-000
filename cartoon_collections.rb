@@ -13,9 +13,11 @@ end
 
 def long_planeteer_calls(calls)
   calls.each do |call|
-    call.any? > 4 == true
-  else
-    false
+    call.any? > 4
+      true
+    else
+      false
+    end
   end
 end
 

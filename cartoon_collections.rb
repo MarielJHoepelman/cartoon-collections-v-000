@@ -19,9 +19,7 @@ end
 
 def find_the_cheese(maybe_cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  found_element = nil
   maybe_cheeses.any? { |maybe_cheese|
-    found_element =  maybe_cheese if cheese_types.include? maybe_cheese
+    return maybe_cheese if cheese_types.include? maybe_cheese
   }
-  found_element
 end

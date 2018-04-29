@@ -11,10 +11,11 @@ def summon_captain_planet(planeteers)# code an argument here
 end
 
 
-def long_planeteer_calls(calls)# code an argument here
+def long_planeteer_calls(calls)
   calls.each do |call|
-    ('').size > 4
-  else
+    if ('').size > 4
+      true
+  elseif ('').size < 4
     false
   end 
 end
